@@ -1,0 +1,6 @@
+{
+    "happyBirthday": "Happy birthday!",
+    "@happyBirthday": {
+      "description": "An expression of good will offered on a person's birthday"
+    }
+}
