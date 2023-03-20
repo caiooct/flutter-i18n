@@ -32,7 +32,11 @@ class HomePage extends StatelessWidget {
         title: const Text('Flutter App Demo'),
       ),
       body: Center(
-        child: Text(AppLocalizations.of(context).happyBirthday),
+        child: Text(
+          AppLocalizations.of(context).happyBirthday,
+          style: Theme.of(context).textTheme.displayMedium,
+          textAlign: TextAlign.center,
+        ),
       ),
     );
   }
