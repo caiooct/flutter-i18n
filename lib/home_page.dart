@@ -46,7 +46,8 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Text(
           AppLocalizations.of(context).happyBirthday,
-          style: Theme.of(context).textTheme.headline2,
+          style: Theme.of(context).textTheme.displayMedium,
+          textAlign: TextAlign.center,
         ),
       ),
     );
